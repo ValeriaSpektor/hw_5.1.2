@@ -12,7 +12,7 @@ describe('Page Load Test', () => {
   })
 })
 
-
+//test number 2
 describe('Login Test', () => {
   it('Should login with predefined credentials', () => {
     cy.visit('https://sqlverifier-live-6e21ca0ed768.herokuapp.com/')
