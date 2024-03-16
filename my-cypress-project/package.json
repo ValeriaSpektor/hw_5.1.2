@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --record --key 37db1569-03aa-48e3-91b7-9533b1c87e4b"
+    "test": "npx cypress run --record --key 37db1569-03aa-48e3-91b7-9533b1c87e4b",
+    "test:staging": "cypress run --config-file cypress.staging.json --record --key 37db1569-03aa-48e3-91b7-9533b1c87e4b"
   },
   "keywords": [],
   "author": "",
