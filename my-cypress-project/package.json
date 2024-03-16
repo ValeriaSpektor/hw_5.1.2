@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --record --key 37db1569-03aa-48e3-91b7-9533b1c87e4b",
-    "test:staging": "cypress run --config-file cypress.staging.json --record --key 37db1569-03aa-48e3-91b7-9533b1c87e4b"
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:dashboard": "cypress run --record --key 37db1569-03aa-48e3-91b7-9533b1c87e4b",
+    "cy:run:second": "npm run cy:run --config-file cypress.config-2.json --record --key 37db1569-03aa-48e3-91b7-9533b1c87e4b"
   },
   "keywords": [],
   "author": "",
